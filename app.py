@@ -11,9 +11,9 @@ def load_model(model_path):
         return pickle.load(file)
 
 # Load models
-Kidney_model=load_model("C:/Users/DINESH/Desktop/Data for DS/vscode/project/kidney.pkl")
-liver_model = load_model('C:/Users/DINESH/Desktop/Data for DS/vscode/project/model_liver.pkl')
-parkinson_model = load_model('C:/Users/DINESH\Desktop/Data for DS/vscode/project/parkinson.pkl')
+Kidney_model=load_model("model_kid1.pkl")
+liver_model = load_model('model (1).pkl')
+parkinson_model = load_model('model_park.pkl')
 
 # App title
 st.title('Medical Condition Prediction App')
