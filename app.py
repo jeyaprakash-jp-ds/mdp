@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import base64
 
 def set_background_image_local(image_path):
     with open(image_path, "rb") as file:
